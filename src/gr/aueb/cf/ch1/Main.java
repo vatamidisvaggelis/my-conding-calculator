@@ -22,7 +22,9 @@ public class Main {
             System.err.println("Error. Denominator must not be zero");
             throw e;
         }
-}
+        }
+
+        public static int mod(int a, int b){return  a%b;}
 
 
 }
